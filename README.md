@@ -7,6 +7,4 @@ Algorithm that outputs k-factors given a set of words.
 
 ##Usage: 
 
-##Contributing:
-
 Credits: Kevin McMullin and Alexandra Nastevski
