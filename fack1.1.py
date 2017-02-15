@@ -12,7 +12,7 @@ class KFax:
         word = input("Please enter a word: ")
         k = int(input("Please enter a value for k: "))
         k_factors = list(combinations(word.lower(),k)) ##this part can be changed to itertools.permutations for prek
-        n_length = "This word has a length of %s and \
+        n_length = "This word has a length of %s characters and \
 %s k-factors." % (len(word),len(k_factors))
         return (k_factors, n_length)
 
