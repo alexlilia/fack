@@ -19,7 +19,8 @@ class KFax:
     for i in fack():
         '''
         For-loop calling iterables of fack() function that prints lists
-        of each combination; .join function used to merges items in each list.
+        of each combination; .join function cannot be used; return 
+        function in fack() returned tuple.
         '''
         print(i)
         
